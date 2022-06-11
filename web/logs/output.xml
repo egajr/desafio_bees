@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1 (Python 3.9.10 on darwin)" generated="20220611 15:42:14.818" rpa="false" schemaversion="2">
+<suite id="s1" name="Tests" source="/Users/eder.angelo/Documents/Projeto/teste/desafio_bees/web/tests">
+<suite id="s1-s1" name="Purchase Test" source="/Users/eder.angelo/Documents/Projeto/teste/desafio_bees/web/tests/purchase_test.robot">
+<test id="s1-s1-t1" name="I must complete the purchase successfully">
+<kw name="Start Session" library="base_web" type="SETUP">
+<kw name="New Browser" library="Browser">
+<arg>${BROWSER}</arg>
+<arg>${HEADLESS}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<msg timestamp="20220611 15:42:16.378" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0, "tracesDir": "/Users/eder.angelo/Documents/Projeto/teste/desafio_bees/web/logs/browser/traces/03c968f5-823a-4e7c-9fa9-0cd129d164c5"}</msg>
+<msg timestamp="20220611 15:42:16.982" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0,"tracesDir":"/Users/eder.angelo/Documents/Projeto/teste/desafio_bees/web/logs/browser/traces/03c968f5-823a-4e7c-9fa9-0cd129d164c5"}</msg>
+<status status="PASS" starttime="20220611 15:42:16.377" endtime="20220611 15:42:16.982"/>
+</kw>
+<kw name="New Page" library="Browser">
+<arg>about:blank</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<msg timestamp="20220611 15:42:18.209" level="INFO">Successfully initialized new page object and opened url: about:blank</msg>
+<msg timestamp="20220611 15:42:18.209" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<msg timestamp="20220611 15:42:18.209" level="DEBUG">Video is not enabled.</msg>
+<status status="PASS" starttime="20220611 15:42:17.007" endtime="20220611 15:42:18.209"/>
+</kw>
+<kw name="Set Viewport Size" library="Browser">
+<arg>1920</arg>
+<arg>1080</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Sets current Pages viewport size to specified dimensions.</doc>
+<msg timestamp="20220611 15:42:18.334" level="INFO">Set viewport size to: [object Object]</msg>
+<status status="PASS" starttime="20220611 15:42:18.210" endtime="20220611 15:42:18.334"/>
+</kw>
+<kw name="Go To" library="Browser">
+<arg>${URL_BASE}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Navigates to the given ``url``.</doc>
+<msg timestamp="20220611 15:42:18.672" level="INFO">Successfully opened URL https://www.saucedemo.com/</msg>
+<status status="PASS" starttime="20220611 15:42:18.335" endtime="20220611 15:42:18.672"/>
+</kw>
+<status status="PASS" starttime="20220611 15:42:16.376" endtime="20220611 15:42:18.674"/>
+</kw>
+<kw name="GIVEN That i access the soucedemo website with valid credentials" library="steps_purchase">
+<kw name="Check Point Login Page" library="login_page">
+<kw name="Wait For Elements State" library="Browser">
+<arg>${login_button}</arg>
+<arg>visible</arg>
+<arg>timeout=${DEFAULT_TIMEOUT}</arg>
+<arg>message=This is not the login page</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220611 15:42:18.707" level="INFO">Waited for Element with selector id=login-button at state visible</msg>
+<status status="PASS" starttime="20220611 15:42:18.676" endtime="20220611 15:42:18.707"/>
+</kw>
+<status status="PASS" starttime="20220611 15:42:18.676" endtime="20220611 15:42:18.708"/>
+</kw>
+<kw name="Login Soucedemo E-Commerce" library="login_page">
+<arg>${USER}[valid]</arg>
+<arg>${SECRET}[valid]</arg>
+<kw name="Fill Input Text" library="general_keywords">
+<arg>${username}</arg>
+<arg>${user}</arg>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${element}</arg>
+<arg>visible</arg>
+<arg>${timeout}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220611 15:42:18.724" level="INFO">Waited for Element with selector id=user-name at state visible</msg>
+<status status="PASS" starttime="20220611 15:42:18.710" endtime="20220611 15:42:18.724"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${element}</arg>
+<arg>enabled</arg>
+<arg>${timeout}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220611 15:42:18.757" level="INFO">Waited for Element with selector id=user-name at state enabled</msg>
+<status status="PASS" starttime="20220611 15:42:18.725" endtime="20220611 15:42:18.757"/>
+</kw>
+<kw name="Fill Text" library="Browser">
+<arg>${element}</arg>
+<arg>${text}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20220611 15:42:18.758" level="INFO">Fills the text 'standard_user' in the given field.</msg>
+<msg timestamp="20220611 15:42:18.806" level="DEBUG">Fill text standard_user on id=user-name</msg>
+<status status="PASS" starttime="20220611 15:42:18.758" endtime="20220611 15:42:18.806"/>
+</kw>
+<status status="PASS" starttime="20220611 15:42:18.710" endtime="20220611 15:42:18.808"/>
+</kw>
+<kw name="Fill Input Text" library="general_keywords">
+<arg>${password}</arg>
+<arg>${pass}</arg>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${element}</arg>
+<arg>visible</arg>
+<arg>${timeout}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220611 15:42:18.825" level="INFO">Waited for Element with selector id=password at state visible</msg>
+<status status="PASS" starttime="20220611 15:42:18.811" endtime="20220611 15:42:18.825"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${element}</arg>
+<arg>enabled</arg>
+<arg>${timeout}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220611 15:42:18.841" level="INFO">Waited for Element with selector id=password at state enabled</msg>
+<status status="PASS" starttime="20220611 15:42:18.826" endtime="20220611 15:42:18.842"/>
+</kw>
+<kw name="Fill Text" library="Browser">
+<arg>${element}</arg>
+<arg>${text}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20220611 15:42:18.843" level="INFO">Fills the text 'secret_sauce' in the given field.</msg>
+<msg timestamp="20220611 15:42:18.895" level="DEBUG">Fill text secret_sauce on id=password</msg>
+<status status="PASS" starttime="20220611 15:42:18.843" endtime="20220611 15:42:18.895"/>
+</kw>
+<status status="PASS" starttime="20220611 15:42:18.809" endtime="20220611 15:42:18.896"/>
+</kw>
+<kw name="Click On Element" library="general_keywords">
+<arg>${login_button}</arg>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${element}</arg>
+<arg>visible</arg>
+<arg>${timeout}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220611 15:42:18.912" level="INFO">Waited for Element with selector id=login-button at state visible</msg>
+<status status="PASS" starttime="20220611 15:42:18.898" endtime="20220611 15:42:18.913"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${element}</arg>
+<arg>enabled</arg>
+<arg>${timeout}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220611 15:42:18.930" level="INFO">Waited for Element with selector id=login-button at state enabled</msg>
+<status status="PASS" starttime="20220611 15:42:18.914" endtime="20220611 15:42:18.930"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>${element}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<msg timestamp="20220611 15:42:18.931" level="DEBUG">Click options are: {"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}</msg>
+<msg timestamp="20220611 15:42:19.050" level="DEBUG">Clicked element: 'id=login-button' with options: '{"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}'</msg>
+<status status="PASS" starttime="20220611 15:42:18.931" endtime="20220611 15:42:19.050"/>
+</kw>
+<status status="PASS" starttime="20220611 15:42:18.897" endtime="20220611 15:42:19.051"/>
+</kw>
+<status status="PASS" starttime="20220611 15:42:18.709" endtime="20220611 15:42:19.052"/>
+</kw>
+<status status="PASS" starttime="20220611 15:42:18.675" endtime="20220611 15:42:19.052"/>
+</kw>
+<kw name="WHEN I choose the Fleece Jacket to buy" library="steps_purchase" sourcename="I choose the ${product} to buy">
+<kw name="Check Point Home Page" library="home_page">
+<kw name="Validate Text" library="general_keywords">
+<arg>${title_page}</arg>
+<arg>PRODUCTS</arg>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${title_page}</arg>
+<arg>visible</arg>
+<arg>timeout=${DEFAULT_TIMEOUT}</arg>
+<arg>message=This is not correct page</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220611 15:42:19.139" level="INFO">Waited for Element with selector css=.title at state visible</msg>
+<status status="PASS" starttime="20220611 15:42:19.056" endtime="20220611 15:42:19.140"/>
+</kw>
+<kw name="Get Text" library="Browser">
+<arg>${title_page}</arg>
+<arg>==</arg>
+<arg>${text}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<msg timestamp="20220611 15:42:19.178" level="DEBUG">Text received successfully.</msg>
+<msg timestamp="20220611 15:42:19.178" level="DEBUG">Assertion polling statistics:
+First element asserted in: 0.036522865295410156 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds</msg>
+<status status="PASS" starttime="20220611 15:42:19.141" endtime="20220611 15:42:19.179"/>
+</kw>
+<status status="PASS" starttime="20220611 15:42:19.055" endtime="20220611 15:42:19.180"/>
+</kw>
+<status status="PASS" starttime="20220611 15:42:19.054" endtime="20220611 15:42:19.180"/>
+</kw>
+<kw name="Select Product" library="home_page">
+<arg>${product}</arg>
+<kw name="Click On Element" library="general_keywords">
+<arg>xpath=//a/div[contains(., '${product}')]</arg>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${element}</arg>
+<arg>visible</arg>
+<arg>${timeout}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220611 15:42:19.191" level="INFO">Waited for Element with selector xpath=//a/div[contains(., 'Fleece Jacket')] at state visible</msg>
+<status status="PASS" starttime="20220611 15:42:19.182" endtime="20220611 15:42:19.191"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${element}</arg>
+<arg>enabled</arg>
+<arg>${timeout}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220611 15:42:19.209" level="INFO">Waited for Element with selector xpath=//a/div[contains(., 'Fleece Jacket')] at state enabled</msg>
+<status status="PASS" starttime="20220611 15:42:19.193" endtime="20220611 15:42:19.209"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>${element}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<msg timestamp="20220611 15:42:19.211" level="DEBUG">Click options are: {"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}</msg>
+<msg timestamp="20220611 15:42:19.319" level="DEBUG">Clicked element: 'xpath=//a/div[contains(., 'Fleece Jacket')]' with options: '{"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}'</msg>
+<status status="PASS" starttime="20220611 15:42:19.211" endtime="20220611 15:42:19.319"/>
+</kw>
+<status status="PASS" starttime="20220611 15:42:19.181" endtime="20220611 15:42:19.320"/>
+</kw>
+<status status="PASS" starttime="20220611 15:42:19.180" endtime="20220611 15:42:19.321"/>
+</kw>
+<status status="PASS" starttime="20220611 15:42:19.053" endtime="20220611 15:42:19.321"/>
+</kw>
+<kw name="AND Add it to the cart" library="steps_purchase">
+<kw name="Check Point Product Page" library="product_page">
+<kw name="Wait For Elements State" library="Browser">
+<arg>${back_products}</arg>
+<arg>visible</arg>
+<arg>timeout=${DEFAULT_TIMEOUT}</arg>
+<arg>message=This is not the product page</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220611 15:42:19.332" level="INFO">Waited for Element with selector css=#back-to-products at state visible</msg>
+<status status="PASS" starttime="20220611 15:42:19.322" endtime="20220611 15:42:19.333"/>
+</kw>
+<status status="PASS" starttime="20220611 15:42:19.322" endtime="20220611 15:42:19.334"/>
+</kw>
+<kw name="Add Product To Cart" library="product_page">
+<kw name="Click On Element" library="general_keywords">
+<arg>${add_cart_btn}</arg>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${element}</arg>
+<arg>visible</arg>
+<arg>${timeout}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220611 15:42:19.347" level="INFO">Waited for Element with selector css=.btn_primary at state visible</msg>
+<status status="PASS" starttime="20220611 15:42:19.336" endtime="20220611 15:42:19.347"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${element}</arg>
+<arg>enabled</arg>
+<arg>${timeout}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220611 15:42:19.375" level="INFO">Waited for Element with selector css=.btn_primary at state enabled</msg>
+<status status="PASS" starttime="20220611 15:42:19.348" endtime="20220611 15:42:19.375"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>${element}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<msg timestamp="20220611 15:42:19.378" level="DEBUG">Click options are: {"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}</msg>
+<msg timestamp="20220611 15:42:19.475" level="DEBUG">Clicked element: 'css=.btn_primary' with options: '{"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}'</msg>
+<status status="PASS" starttime="20220611 15:42:19.377" endtime="20220611 15:42:19.475"/>
+</kw>
+<status status="PASS" starttime="20220611 15:42:19.335" endtime="20220611 15:42:19.476"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${remove_cart_btn}</arg>
+<arg>visible</arg>
+<arg>${DEFAULT_TIMEOUT}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220611 15:42:19.488" level="INFO">Waited for Element with selector css=.btn_small at state visible</msg>
+<status status="PASS" starttime="20220611 15:42:19.476" endtime="20220611 15:42:19.488"/>
+</kw>
+<status status="PASS" starttime="20220611 15:42:19.334" endtime="20220611 15:42:19.490"/>
+</kw>
+<kw name="Access Cart" library="product_page">
+<kw name="Click On Element" library="general_keywords">
+<arg>${cart}</arg>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${element}</arg>
+<arg>visible</arg>
+<arg>${timeout}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220611 15:42:19.503" level="INFO">Waited for Element with selector css=#shopping_cart_container at state visible</msg>
+<status status="PASS" starttime="20220611 15:42:19.492" endtime="20220611 15:42:19.503"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${element}</arg>
+<arg>enabled</arg>
+<arg>${timeout}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220611 15:42:19.536" level="INFO">Waited for Element with selector css=#shopping_cart_container at state enabled</msg>
+<status status="PASS" starttime="20220611 15:42:19.505" endtime="20220611 15:42:19.537"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>${element}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<msg timestamp="20220611 15:42:19.539" level="DEBUG">Click options are: {"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}</msg>
+<msg timestamp="20220611 15:42:19.601" level="DEBUG">Clicked element: 'css=#shopping_cart_container' with options: '{"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}'</msg>
+<status status="PASS" starttime="20220611 15:42:19.538" endtime="20220611 15:42:19.601"/>
+</kw>
+<status status="PASS" starttime="20220611 15:42:19.491" endtime="20220611 15:42:19.603"/>
+</kw>
+<status status="PASS" starttime="20220611 15:42:19.491" endtime="20220611 15:42:19.603"/>
+</kw>
+<kw name="Check Point Cart Page" library="cart_page">
+<kw name="Validate Text" library="general_keywords">
+<arg>${title_page}</arg>
+<arg>YOUR CART</arg>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${title_page}</arg>
+<arg>visible</arg>
+<arg>timeout=${DEFAULT_TIMEOUT}</arg>
+<arg>message=This is not correct page</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220611 15:42:19.619" level="INFO">Waited for Element with selector css=.title at state visible</msg>
+<status status="PASS" starttime="20220611 15:42:19.605" endtime="20220611 15:42:19.620"/>
+</kw>
+<kw name="Get Text" library="Browser">
+<arg>${title_page}</arg>
+<arg>==</arg>
+<arg>${text}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<msg timestamp="20220611 15:42:19.643" level="DEBUG">Text received successfully.</msg>
+<msg timestamp="20220611 15:42:19.644" level="DEBUG">Assertion polling statistics:
+First element asserted in: 0.02200770378112793 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds</msg>
+<status status="PASS" starttime="20220611 15:42:19.621" endtime="20220611 15:42:19.644"/>
+</kw>
+<status status="PASS" starttime="20220611 15:42:19.605" endtime="20220611 15:42:19.645"/>
+</kw>
+<status status="PASS" starttime="20220611 15:42:19.604" endtime="20220611 15:42:19.645"/>
+</kw>
+<kw name="Go To Checkout" library="cart_page">
+<kw name="Wait For Elements State" library="Browser">
+<arg>${remove_cart_btn}</arg>
+<arg>visible</arg>
+<arg>${DEFAULT_TIMEOUT}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220611 15:42:19.654" level="INFO">Waited for Element with selector css=.btn_small at state visible</msg>
+<status status="PASS" starttime="20220611 15:42:19.646" endtime="20220611 15:42:19.654"/>
+</kw>
+<kw name="Click On Element" library="general_keywords">
+<arg>${checkout_btn}</arg>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${element}</arg>
+<arg>visible</arg>
+<arg>${timeout}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220611 15:42:19.662" level="INFO">Waited for Element with selector css=.checkout_button at state visible</msg>
+<status status="PASS" starttime="20220611 15:42:19.656" endtime="20220611 15:42:19.663"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${element}</arg>
+<arg>enabled</arg>
+<arg>${timeout}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220611 15:42:19.691" level="INFO">Waited for Element with selector css=.checkout_button at state enabled</msg>
+<status status="PASS" starttime="20220611 15:42:19.663" endtime="20220611 15:42:19.691"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>${element}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<msg timestamp="20220611 15:42:19.693" level="DEBUG">Click options are: {"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}</msg>
+<msg timestamp="20220611 15:42:19.750" level="DEBUG">Clicked element: 'css=.checkout_button' with options: '{"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}'</msg>
+<status status="PASS" starttime="20220611 15:42:19.692" endtime="20220611 15:42:19.751"/>
+</kw>
+<status status="PASS" starttime="20220611 15:42:19.655" endtime="20220611 15:42:19.752"/>
+</kw>
+<status status="PASS" starttime="20220611 15:42:19.645" endtime="20220611 15:42:19.752"/>
+</kw>
+<status status="PASS" starttime="20220611 15:42:19.321" endtime="20220611 15:42:19.753"/>
+</kw>
+<kw name="THEN I must complete the purchase successfully" library="steps_purchase">
+<kw name="Check Point Checkout Page" library="checkout_page">
+<kw name="Validate Text" library="general_keywords">
+<arg>${title_page}</arg>
+<arg>tessss ##CHECKOUT: YOUR INFORMATION</arg>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${title_page}</arg>
+<arg>visible</arg>
+<arg>timeout=${DEFAULT_TIMEOUT}</arg>
+<arg>message=This is not correct page</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220611 15:42:19.781" level="INFO">Waited for Element with selector css=.title at state visible</msg>
+<status status="PASS" starttime="20220611 15:42:19.756" endtime="20220611 15:42:19.781"/>
+</kw>
+<kw name="Get Text" library="Browser">
+<arg>${title_page}</arg>
+<arg>==</arg>
+<arg>${text}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<msg timestamp="20220611 15:42:20.831" level="DEBUG">Text received successfully.</msg>
+<msg timestamp="20220611 15:42:20.831" level="DEBUG">Assertion polling statistics:
+First element asserted in: 0.018980979919433594 seconds
+Total tries: 47
+Elapsed time in retries 1.0290541648864746 seconds</msg>
+<msg timestamp="20220611 15:42:20.831" level="DEBUG">Using /Users/eder.angelo/Documents/Projeto/teste/desafio_bees/web/logs/I_must_complete_the_purchase_successfully_FAILURE_SCREENSHOT_{index} to take screenshot.</msg>
+<msg timestamp="20220611 15:42:21.037" level="DEBUG">Screenshot succesfully captured to: /Users/eder.angelo/Documents/Projeto/teste/desafio_bees/web/logs/I_must_complete_the_purchase_successfully_FAILURE_SCREENSHOT_1.png</msg>
+<msg timestamp="20220611 15:42:21.038" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="I_must_complete_the_purchase_successfully_FAILURE_SCREENSHOT_1.png"&gt;&lt;img src="I_must_complete_the_purchase_successfully_FAILURE_SCREENSHOT_1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220611 15:42:21.044" level="FAIL">Text 'CHECKOUT: YOUR INFORMATION' (str) should be 'tessss ##CHECKOUT: YOUR INFORMATION' (str)</msg>
+<msg timestamp="20220611 15:42:21.044" level="DEBUG">Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/Browser/browser.py", line 882, in run_keyword
+    raise e
+  File "/usr/local/lib/python3.9/site-packages/Browser/browser.py", line 872, in run_keyword
+    return DynamicCore.run_keyword(self, name, args, kwargs)
+  File "/usr/local/lib/python3.9/site-packages/robotlibcore.py", line 94, in run_keyword
+    return self.keywords[name](*args, **(kwargs or {}))
+  File "/usr/local/lib/python3.9/site-packages/Browser/assertion_engine.py", line 41, in with_assertion_polling
+    raise e
+  File "/usr/local/lib/python3.9/site-packages/Browser/assertion_engine.py", line 34, in with_assertion_polling
+    return wrapped(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/Browser/keywords/getters.py", line 214, in get_text
+    return verify_assertion(
+  File "/usr/local/lib/python3.9/site-packages/assertionengine/assertion_engine.py", line 191, in verify_assertion
+    raise AssertionError(error_msg)</msg>
+<status status="FAIL" starttime="20220611 15:42:19.782" endtime="20220611 15:42:21.044"/>
+</kw>
+<status status="FAIL" starttime="20220611 15:42:19.755" endtime="20220611 15:42:21.045"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${title_page}</arg>
+<arg>visible</arg>
+<arg>timeout=${DEFAULT_TIMEOUT}</arg>
+<arg>message=This is not the cart page</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="NOT RUN" starttime="20220611 15:42:21.046" endtime="20220611 15:42:21.046"/>
+</kw>
+<kw name="Get Text" library="Browser">
+<arg>${title_page}</arg>
+<arg>==</arg>
+<arg>CHECKOUT: YOUR INFORMATION</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="NOT RUN" starttime="20220611 15:42:21.047" endtime="20220611 15:42:21.047"/>
+</kw>
+<status status="FAIL" starttime="20220611 15:42:19.754" endtime="20220611 15:42:21.048"/>
+</kw>
+<kw name="Submit Info Checkout" library="checkout_page">
+<status status="NOT RUN" starttime="20220611 15:42:21.048" endtime="20220611 15:42:21.048"/>
+</kw>
+<kw name="Finalize Checkout" library="checkout_page">
+<status status="NOT RUN" starttime="20220611 15:42:21.049" endtime="20220611 15:42:21.049"/>
+</kw>
+<kw name="Logout Soucedemo E-Commerce" library="home_page">
+<status status="NOT RUN" starttime="20220611 15:42:21.049" endtime="20220611 15:42:21.049"/>
+</kw>
+<kw name="Check Point Login Page" library="login_page">
+<status status="NOT RUN" starttime="20220611 15:42:21.049" endtime="20220611 15:42:21.049"/>
+</kw>
+<status status="FAIL" starttime="20220611 15:42:19.753" endtime="20220611 15:42:21.050"/>
+</kw>
+<kw name="Close Session" library="base_web" type="TEARDOWN">
+<kw name="Close Browser" library="Browser">
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<msg timestamp="20220611 15:42:21.382" level="INFO">Closed browser</msg>
+<status status="PASS" starttime="20220611 15:42:21.051" endtime="20220611 15:42:21.382"/>
+</kw>
+<status status="PASS" starttime="20220611 15:42:21.051" endtime="20220611 15:42:21.383"/>
+</kw>
+<status status="FAIL" starttime="20220611 15:42:16.373" endtime="20220611 15:42:21.384">Text 'CHECKOUT: YOUR INFORMATION' (str) should be 'tessss ##CHECKOUT: YOUR INFORMATION' (str)</status>
+</test>
+<status status="FAIL" starttime="20220611 15:42:14.901" endtime="20220611 15:42:21.396"/>
+</suite>
+<status status="FAIL" starttime="20220611 15:42:14.883" endtime="20220611 15:42:21.406"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Purchase Test">Tests.Purchase Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
