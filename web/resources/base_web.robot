@@ -1,11 +1,5 @@
 **Settings**
-Library     Browser  run_on_failure=Take Screenshot
-Library     String
-Library     OperatingSystem
-Library     RequestsLibrary
-Library     JSONLibrary
-Library     FakerLibrary  locale=pt_BR
-
+Resource  ${EXECDIR}/config/base.robot
 Resource  ${EXECDIR}/web/resources/general_keywords.robot
 Resource  ${EXECDIR}/web/resources/data/data.robot
 Resource  ${EXECDIR}/web/pages/login_page.robot
@@ -13,7 +7,7 @@ Resource  ${EXECDIR}/web/pages/home_page.robot
 Resource  ${EXECDIR}/web/pages/product_page.robot
 Resource  ${EXECDIR}/web/pages/cart_page.robot
 Resource  ${EXECDIR}/web/pages/checkout_page.robot
-Resource  ${EXECDIR}/web/steps/steps_purchase.robot
+Resource  ${EXECDIR}/web/steps/steps_definition.robot
 
 **Variables**
 ${DEFAULT_TIMEOUT}  15

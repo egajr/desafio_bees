@@ -14,8 +14,9 @@ This is a test project as a challenge for bees using the Robot Framework.
 
 ### Run Tests
 
-* Run the command for web test ```robot --listener 'allure_robotframework;./web/logs' -d ./web/logs -L debug ./web/tests```
-* Run the command for api test ```robot --listener 'allure_robotframework;./api/logs' -d ./api/logs -L debug ./api/tests```
+* Run the command for web test ```sh run_web_test.sh```
+* Run the command for api test ```sh run_api_test.sh```
+* Run the command for all test ```sh run_all_test.sh```
 
 ### Report Allure
-* Run the command ```sh report_allure.sh```
+* After running the tests, the report generated lcally by the allure report will be opened in the browser

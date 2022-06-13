@@ -4,3 +4,4 @@ robotframework-browser==11.2.0
 robotframework-faker==5.0.0
 robotframework-jsonlibrary==0.3.1
 robotframework-requests==0.9.1
+python-dotenv==0.19.0

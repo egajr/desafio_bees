@@ -1,307 +1,201 @@
-{"level":30,"time":"2022-06-11T18:42:16.253Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Listening on 63395"}
-{"level":30,"time":"2022-06-11T18:42:16.370Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-06-11T18:42:16.370Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-06-11T18:42:16.374Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-06-11T18:42:16.374Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-06-11T18:42:16.379Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2022-06-11T18:42:16.957Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method newBrowser"}
-{"level":30,"time":"2022-06-11T18:42:17.009Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method newPage"}
-{"level":30,"time":"2022-06-11T18:42:17.034Z","pid":98950,"hostname":"NMAC-3257.local","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2022-06-11T18:42:17.079Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Changed active context"}
-{"level":30,"time":"2022-06-11T18:42:18.187Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Video path: undefined"}
-{"level":30,"time":"2022-06-11T18:42:18.187Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Changed active page"}
-{"level":30,"time":"2022-06-11T18:42:18.206Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method newPage"}
-{"level":30,"time":"2022-06-11T18:42:18.211Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method setViewportSize"}
-{"level":30,"time":"2022-06-11T18:42:18.332Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method setViewportSize"}
-{"level":30,"time":"2022-06-11T18:42:18.336Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method goTo"}
-{"level":30,"time":"2022-06-11T18:42:18.670Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method goTo"}
-{"level":30,"time":"2022-06-11T18:42:18.679Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:18.680Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
-{"level":30,"time":"2022-06-11T18:42:18.704Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:18.712Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:18.712Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
-{"level":30,"time":"2022-06-11T18:42:18.721Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:18.727Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:18.727Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
-{"level":30,"time":"2022-06-11T18:42:18.755Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:18.759Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-06-11T18:42:18.759Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
-{"level":30,"time":"2022-06-11T18:42:18.805Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method fillText"}
-{"level":30,"time":"2022-06-11T18:42:18.813Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:18.813Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=password in page."}
-{"level":30,"time":"2022-06-11T18:42:18.824Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:18.827Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:18.827Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=password in page."}
-{"level":30,"time":"2022-06-11T18:42:18.840Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:18.844Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-06-11T18:42:18.844Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=password in page."}
-{"level":30,"time":"2022-06-11T18:42:18.894Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method fillText"}
-{"level":30,"time":"2022-06-11T18:42:18.899Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:18.899Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
-{"level":30,"time":"2022-06-11T18:42:18.911Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:18.914Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:18.914Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
-{"level":30,"time":"2022-06-11T18:42:18.928Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:18.932Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method click"}
-{"level":30,"time":"2022-06-11T18:42:18.932Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
-{"level":30,"time":"2022-06-11T18:42:19.046Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method click"}
-{"level":30,"time":"2022-06-11T18:42:19.058Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.058Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:19.131Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.143Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:19.143Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:19.176Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing PRODUCTS"}
-{"level":30,"time":"2022-06-11T18:42:19.176Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:19.183Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.183Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with xpath=//a/div[contains(., 'Fleece Jacket')] in page."}
-{"level":30,"time":"2022-06-11T18:42:19.190Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.194Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.194Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with xpath=//a/div[contains(., 'Fleece Jacket')] in page."}
-{"level":30,"time":"2022-06-11T18:42:19.208Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.211Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method click"}
-{"level":30,"time":"2022-06-11T18:42:19.212Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with xpath=//a/div[contains(., 'Fleece Jacket')] in page."}
-{"level":30,"time":"2022-06-11T18:42:19.317Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method click"}
-{"level":30,"time":"2022-06-11T18:42:19.324Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.324Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=#back-to-products in page."}
-{"level":30,"time":"2022-06-11T18:42:19.331Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.338Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.338Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.btn_primary in page."}
-{"level":30,"time":"2022-06-11T18:42:19.346Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.350Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.350Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.btn_primary in page."}
-{"level":30,"time":"2022-06-11T18:42:19.373Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.378Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method click"}
-{"level":30,"time":"2022-06-11T18:42:19.378Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.btn_primary in page."}
-{"level":30,"time":"2022-06-11T18:42:19.473Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method click"}
-{"level":30,"time":"2022-06-11T18:42:19.477Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.477Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.btn_small in page."}
-{"level":30,"time":"2022-06-11T18:42:19.485Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.493Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.493Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=#shopping_cart_container in page."}
-{"level":30,"time":"2022-06-11T18:42:19.501Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.510Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.510Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=#shopping_cart_container in page."}
-{"level":30,"time":"2022-06-11T18:42:19.533Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.540Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method click"}
-{"level":30,"time":"2022-06-11T18:42:19.540Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=#shopping_cart_container in page."}
-{"level":30,"time":"2022-06-11T18:42:19.597Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method click"}
-{"level":30,"time":"2022-06-11T18:42:19.607Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.607Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:19.617Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.622Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:19.622Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:19.642Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing YOUR CART"}
-{"level":30,"time":"2022-06-11T18:42:19.642Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:19.647Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.647Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.btn_small in page."}
-{"level":30,"time":"2022-06-11T18:42:19.653Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.657Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.657Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.checkout_button in page."}
-{"level":30,"time":"2022-06-11T18:42:19.661Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.664Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.664Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.checkout_button in page."}
-{"level":30,"time":"2022-06-11T18:42:19.689Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.695Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method click"}
-{"level":30,"time":"2022-06-11T18:42:19.696Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.checkout_button in page."}
-{"level":30,"time":"2022-06-11T18:42:19.747Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method click"}
-{"level":30,"time":"2022-06-11T18:42:19.758Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.758Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:19.779Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-06-11T18:42:19.784Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:19.784Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:19.800Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:19.800Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:19.814Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:19.814Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:19.827Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:19.827Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:19.839Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:19.839Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:19.853Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:19.853Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:19.865Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:19.865Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:19.877Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:19.877Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:19.890Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:19.890Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:19.902Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:19.902Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:19.914Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:19.914Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:19.927Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:19.927Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:19.939Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:19.939Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:19.954Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:19.954Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:19.965Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:19.965Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:19.980Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:19.980Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:19.992Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:19.992Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.007Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.007Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.019Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.019Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.033Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.033Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.045Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.045Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.056Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.056Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.068Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.068Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.080Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.081Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.094Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.094Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.105Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.105Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.118Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.118Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.130Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.130Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.142Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.142Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.151Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.152Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.163Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.163Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.175Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.175Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.187Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.187Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.195Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.195Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.207Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.207Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.215Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.215Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.226Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.226Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.235Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.235Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.246Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.246Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.255Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.255Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.268Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.268Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.275Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.276Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.287Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.287Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.295Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.295Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.306Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.306Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.314Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.314Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.325Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.325Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.334Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.334Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.345Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.345Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.354Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.354Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.368Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.368Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.375Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.376Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.387Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.387Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.394Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.394Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.406Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.406Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.416Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.416Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.428Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.428Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.436Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.436Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.448Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.448Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.458Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.458Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.469Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.469Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.477Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.477Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.488Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.488Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.496Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.496Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.508Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.508Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.515Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.515Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.527Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.527Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.536Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.536Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.547Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.548Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.555Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.555Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.568Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.568Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.576Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.577Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.589Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.590Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.597Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.598Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.609Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.609Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.616Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.616Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.628Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.628Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.637Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.637Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.649Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.649Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.659Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.659Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.670Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.670Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.679Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.679Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.690Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.690Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.698Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.698Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.709Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.709Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.719Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.719Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.730Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.730Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.738Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.738Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.750Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.750Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.765Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.765Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.777Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.777Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.798Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.798Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.811Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.812Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
-{"level":30,"time":"2022-06-11T18:42:20.830Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
-{"level":30,"time":"2022-06-11T18:42:20.830Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
-{"level":30,"time":"2022-06-11T18:42:20.832Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-06-11T18:42:21.036Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-06-11T18:42:21.052Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2022-06-11T18:42:21.381Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method closeBrowser"}
-{"level":30,"time":"2022-06-11T18:42:21.392Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-06-11T18:42:21.392Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-06-11T18:42:21.403Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-06-11T18:42:21.403Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-06-11T18:42:21.502Z","pid":98950,"hostname":"NMAC-3257.local","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2022-06-11T18:42:21.503Z","pid":98950,"hostname":"NMAC-3257.local","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2022-06-13T19:01:27.012Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Listening on 54694"}
+{"level":30,"time":"2022-06-13T19:01:27.092Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-13T19:01:27.092Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-13T19:01:27.097Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-13T19:01:27.097Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-13T19:01:27.102Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2022-06-13T19:01:27.600Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2022-06-13T19:01:27.683Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2022-06-13T19:01:27.701Z","pid":21932,"hostname":"NMAC-3257.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-06-13T19:01:27.714Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Changed active context"}
+{"level":30,"time":"2022-06-13T19:01:29.168Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Video path: undefined"}
+{"level":30,"time":"2022-06-13T19:01:29.168Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Changed active page"}
+{"level":30,"time":"2022-06-13T19:01:29.202Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method newPage"}
+{"level":30,"time":"2022-06-13T19:01:29.208Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method setViewportSize"}
+{"level":30,"time":"2022-06-13T19:01:29.287Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method setViewportSize"}
+{"level":30,"time":"2022-06-13T19:01:29.292Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method goTo"}
+{"level":30,"time":"2022-06-13T19:01:29.640Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method goTo"}
+{"level":30,"time":"2022-06-13T19:01:29.651Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:29.651Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
+{"level":30,"time":"2022-06-13T19:01:29.678Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:29.686Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:29.686Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2022-06-13T19:01:29.696Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:29.702Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:29.702Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2022-06-13T19:01:29.732Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:29.736Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-06-13T19:01:29.736Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2022-06-13T19:01:29.768Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method fillText"}
+{"level":30,"time":"2022-06-13T19:01:29.773Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:29.773Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2022-06-13T19:01:29.779Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:29.787Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:29.787Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2022-06-13T19:01:29.803Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:29.807Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-06-13T19:01:29.807Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2022-06-13T19:01:29.872Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method fillText"}
+{"level":30,"time":"2022-06-13T19:01:29.878Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:29.878Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
+{"level":30,"time":"2022-06-13T19:01:29.884Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:29.888Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:29.888Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
+{"level":30,"time":"2022-06-13T19:01:29.903Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:29.906Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method click"}
+{"level":30,"time":"2022-06-13T19:01:29.907Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
+{"level":30,"time":"2022-06-13T19:01:30.014Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method click"}
+{"level":30,"time":"2022-06-13T19:01:30.022Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.022Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
+{"level":30,"time":"2022-06-13T19:01:30.030Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.033Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
+{"level":30,"time":"2022-06-13T19:01:30.034Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
+{"level":30,"time":"2022-06-13T19:01:30.054Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing PRODUCTS"}
+{"level":30,"time":"2022-06-13T19:01:30.054Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
+{"level":30,"time":"2022-06-13T19:01:30.060Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.060Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with xpath=//a/div[contains(., 'Fleece Jacket')] in page."}
+{"level":30,"time":"2022-06-13T19:01:30.067Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.071Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.071Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with xpath=//a/div[contains(., 'Fleece Jacket')] in page."}
+{"level":30,"time":"2022-06-13T19:01:30.087Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.092Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method click"}
+{"level":30,"time":"2022-06-13T19:01:30.092Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with xpath=//a/div[contains(., 'Fleece Jacket')] in page."}
+{"level":30,"time":"2022-06-13T19:01:30.209Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method click"}
+{"level":30,"time":"2022-06-13T19:01:30.217Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.217Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=#back-to-products in page."}
+{"level":30,"time":"2022-06-13T19:01:30.231Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.238Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.238Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.btn_primary in page."}
+{"level":30,"time":"2022-06-13T19:01:30.245Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.249Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.250Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.btn_primary in page."}
+{"level":30,"time":"2022-06-13T19:01:30.275Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.279Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method click"}
+{"level":30,"time":"2022-06-13T19:01:30.279Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.btn_primary in page."}
+{"level":30,"time":"2022-06-13T19:01:30.336Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method click"}
+{"level":30,"time":"2022-06-13T19:01:30.340Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.340Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.btn_small in page."}
+{"level":30,"time":"2022-06-13T19:01:30.346Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.351Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.351Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=#shopping_cart_container in page."}
+{"level":30,"time":"2022-06-13T19:01:30.359Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.363Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.363Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=#shopping_cart_container in page."}
+{"level":30,"time":"2022-06-13T19:01:30.377Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.381Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method click"}
+{"level":30,"time":"2022-06-13T19:01:30.381Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=#shopping_cart_container in page."}
+{"level":30,"time":"2022-06-13T19:01:30.419Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method click"}
+{"level":30,"time":"2022-06-13T19:01:30.431Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.431Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
+{"level":30,"time":"2022-06-13T19:01:30.441Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.445Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
+{"level":30,"time":"2022-06-13T19:01:30.446Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
+{"level":30,"time":"2022-06-13T19:01:30.478Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing YOUR CART"}
+{"level":30,"time":"2022-06-13T19:01:30.479Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
+{"level":30,"time":"2022-06-13T19:01:30.491Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.491Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.btn_small in page."}
+{"level":30,"time":"2022-06-13T19:01:30.498Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.521Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.521Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.checkout_button in page."}
+{"level":30,"time":"2022-06-13T19:01:30.527Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.531Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.531Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.checkout_button in page."}
+{"level":30,"time":"2022-06-13T19:01:30.547Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.550Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method click"}
+{"level":30,"time":"2022-06-13T19:01:30.551Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.checkout_button in page."}
+{"level":30,"time":"2022-06-13T19:01:30.612Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method click"}
+{"level":30,"time":"2022-06-13T19:01:30.622Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.622Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
+{"level":30,"time":"2022-06-13T19:01:30.629Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.633Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
+{"level":30,"time":"2022-06-13T19:01:30.633Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
+{"level":30,"time":"2022-06-13T19:01:30.656Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: YOUR INFORMATION"}
+{"level":30,"time":"2022-06-13T19:01:30.656Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
+{"level":30,"time":"2022-06-13T19:01:30.668Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.668Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=first-name in page."}
+{"level":30,"time":"2022-06-13T19:01:30.674Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.678Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.678Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=first-name in page."}
+{"level":30,"time":"2022-06-13T19:01:30.691Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.695Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-06-13T19:01:30.695Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=first-name in page."}
+{"level":30,"time":"2022-06-13T19:01:30.713Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method fillText"}
+{"level":30,"time":"2022-06-13T19:01:30.718Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.718Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=last-name in page."}
+{"level":30,"time":"2022-06-13T19:01:30.723Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.726Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.727Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=last-name in page."}
+{"level":30,"time":"2022-06-13T19:01:30.740Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.744Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-06-13T19:01:30.744Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=last-name in page."}
+{"level":30,"time":"2022-06-13T19:01:30.762Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method fillText"}
+{"level":30,"time":"2022-06-13T19:01:30.767Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.767Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=postal-code in page."}
+{"level":30,"time":"2022-06-13T19:01:30.772Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.776Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.776Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=postal-code in page."}
+{"level":30,"time":"2022-06-13T19:01:30.792Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.796Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-06-13T19:01:30.796Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=postal-code in page."}
+{"level":30,"time":"2022-06-13T19:01:30.815Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method fillText"}
+{"level":30,"time":"2022-06-13T19:01:30.820Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.820Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=continue in page."}
+{"level":30,"time":"2022-06-13T19:01:30.826Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.829Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.830Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=continue in page."}
+{"level":30,"time":"2022-06-13T19:01:30.847Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.851Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method click"}
+{"level":30,"time":"2022-06-13T19:01:30.851Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=continue in page."}
+{"level":30,"time":"2022-06-13T19:01:30.899Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method click"}
+{"level":30,"time":"2022-06-13T19:01:30.907Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.907Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
+{"level":30,"time":"2022-06-13T19:01:30.914Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.917Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
+{"level":30,"time":"2022-06-13T19:01:30.917Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
+{"level":30,"time":"2022-06-13T19:01:30.930Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: OVERVIEW"}
+{"level":30,"time":"2022-06-13T19:01:30.930Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
+{"level":30,"time":"2022-06-13T19:01:30.934Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.934Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=finish in page."}
+{"level":30,"time":"2022-06-13T19:01:30.941Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.945Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.945Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=finish in page."}
+{"level":30,"time":"2022-06-13T19:01:30.959Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:30.962Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method click"}
+{"level":30,"time":"2022-06-13T19:01:30.963Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=finish in page."}
+{"level":30,"time":"2022-06-13T19:01:31.007Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method click"}
+{"level":30,"time":"2022-06-13T19:01:31.014Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:31.014Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
+{"level":30,"time":"2022-06-13T19:01:31.019Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:31.022Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method getText"}
+{"level":30,"time":"2022-06-13T19:01:31.022Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with css=.title in page."}
+{"level":30,"time":"2022-06-13T19:01:31.039Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Retrieved text for element css=.title containing CHECKOUT: COMPLETE!"}
+{"level":30,"time":"2022-06-13T19:01:31.039Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method getText"}
+{"level":30,"time":"2022-06-13T19:01:31.045Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:31.045Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=react-burger-menu-btn in page."}
+{"level":30,"time":"2022-06-13T19:01:31.052Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:31.055Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:31.055Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=react-burger-menu-btn in page."}
+{"level":30,"time":"2022-06-13T19:01:31.069Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:31.072Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method click"}
+{"level":30,"time":"2022-06-13T19:01:31.073Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=react-burger-menu-btn in page."}
+{"level":30,"time":"2022-06-13T19:01:31.111Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method click"}
+{"level":30,"time":"2022-06-13T19:01:31.117Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:31.117Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=logout_sidebar_link in page."}
+{"level":30,"time":"2022-06-13T19:01:31.122Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:31.126Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:31.126Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=logout_sidebar_link in page."}
+{"level":30,"time":"2022-06-13T19:01:31.140Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:31.144Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method click"}
+{"level":30,"time":"2022-06-13T19:01:31.144Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=logout_sidebar_link in page."}
+{"level":30,"time":"2022-06-13T19:01:31.660Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method click"}
+{"level":30,"time":"2022-06-13T19:01:31.668Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:31.669Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
+{"level":30,"time":"2022-06-13T19:01:31.674Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-13T19:01:31.679Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2022-06-13T19:01:31.945Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2022-06-13T19:01:31.957Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-13T19:01:31.957Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-13T19:01:31.971Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-13T19:01:31.971Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-13T19:01:32.070Z","pid":21932,"hostname":"NMAC-3257.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2022-06-13T19:01:32.070Z","pid":21932,"hostname":"NMAC-3257.local","msg":"End of node method closeAllBrowsers"}

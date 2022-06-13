@@ -1,6 +1,3 @@
-**Settings**
-
-
 **Keywords**
 That i access the soucedemo website with valid credentials
     Check Point Login Page
